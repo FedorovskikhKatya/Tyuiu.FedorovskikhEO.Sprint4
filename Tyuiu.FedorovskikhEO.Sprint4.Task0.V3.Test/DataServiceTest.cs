@@ -13,6 +13,7 @@ namespace Tyuiu.FedorovskikhEO.Sprint4.Task0.V3.Test
             int res=ds.GetMultOddArrEl(numsArray);
             int wait = 945;
             Assert.AreEqual(res, wait);
+
         }
     }
 }
