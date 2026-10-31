@@ -5,6 +5,7 @@ namespace Tyuiu.FedorovskikhEO.Sprint4.Task0.V3.Test
     public sealed class DataServiceTest
     {
         [TestMethod]
+
         public void TestMethod1()
         {
             DataService ds=new DataService();
