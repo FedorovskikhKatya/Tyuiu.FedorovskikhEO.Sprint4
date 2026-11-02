@@ -8,7 +8,7 @@ namespace Tyuiu.FedorovskikhEO.Sprint4.Task1.V23.Lib
             int sumArray = 0;
             for (int i = 0; i < array.Length; i++)
             {
-                if (i % 2 == 0)
+                if (array[i] % 2 == 0)
                 {
                     sumArray += array[i];
                 }
