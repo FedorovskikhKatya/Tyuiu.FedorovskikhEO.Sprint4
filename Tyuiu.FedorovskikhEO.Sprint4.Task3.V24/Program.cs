@@ -33,7 +33,6 @@ namespace Tyuiu.FedorovskikhEO.Sprint4.Task3.V24
 
                 Console.WriteLine();
             }
-
             Console.WriteLine();
             Console.WriteLine("**********************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:");
