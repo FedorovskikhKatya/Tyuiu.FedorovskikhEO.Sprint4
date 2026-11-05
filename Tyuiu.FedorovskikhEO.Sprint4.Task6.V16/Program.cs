@@ -22,10 +22,11 @@ namespace Tyuiu.FedorovskikhEO.Sprint4.Task6.V16
             Console.WriteLine("* РЕЗУЛЬТАТ:");
             Console.WriteLine("************************************************************");
             Console.WriteLine("Количество элементов длина которых = 7:");
-
-            int nums = ds.Calculate(transport);
-
-            Console.WriteLine(nums);
+            string[] nums = ds.Calculate(transport);
+            for (int i = 0; i < nums.Length; i++)
+            {
+                Console.WriteLine(nums[i]);
+            }
             Console.ReadKey();
         }
     }

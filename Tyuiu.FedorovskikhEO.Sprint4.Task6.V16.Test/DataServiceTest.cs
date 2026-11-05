@@ -9,9 +9,9 @@ namespace Tyuiu.FedorovskikhEO.Sprint4.Task6.V16.Test
         {
             DataService ds = new DataService();
             var transport = new string[] { "Автомобиль", "Велосипед", "Самолет", "Поезд", "Трамвай", "Троллейбус", "Метро" };
-            int res = ds.Calculate(transport);
-            int wait = 2;
-            Assert.AreEqual(wait, res);
+            string[] res = ds.Calculate(transport);
+            string[] wait = { "Самолет", "Трамвай" };
+            CollectionAssert.AreEqual(wait, res);
         }   
     }
 }
