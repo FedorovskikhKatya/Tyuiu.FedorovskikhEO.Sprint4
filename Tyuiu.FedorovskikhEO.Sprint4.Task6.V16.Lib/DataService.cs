@@ -4,6 +4,7 @@ namespace Tyuiu.FedorovskikhEO.Sprint4.Task6.V16.Lib
     public class DataService : ISprint4Task6V16
     {
         public string[] Calculate(string[] array)
+
         {
             string[] mas = Array.FindAll(array, transport => transport.Length == 7);
             return mas;
